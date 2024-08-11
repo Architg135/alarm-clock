@@ -81,7 +81,7 @@ module Alarm_clock(
                     if (tmp_minute >= 59) begin
                         tmp_minute <= 0;
                         tmp_hour <= tmp_hour + 1;
-                        if (tmp_hour >= 24) begin
+                        if (tmp_hour >= 23) begin
                             tmp_hour <= 0;
                         end
                     end 
